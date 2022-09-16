@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Maria",
+      "password": "maria12345",
+      "gender": "F",
+      "dateOfBirth": "1996-01-01",
+      "email": "maria@gmail.com",
+      "mobileNumber": 1234567890,
+      "pincode": 123456,
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    {
+      "name": "jsdhvf",
+      "password": "cdsvdsv",
+      "mobileNumber": "022",
+      "email": "sdvds@sdjb.com",
+      "dateOfBirth": "2022-09-15",
+      "gender": "",
+      "pincode": "022",
+      "city": "eweg",
+      "state": "wewe",
+      "country": "wegg",
+      "id": 3
+    },
+    {
+      "name": "Debarya Pal",
+      "password": "123456",
+      "mobileNumber": "5047549",
+      "email": "debarya.pal01@gmail.com",
+      "dateOfBirth": "2022-09-14",
+      "gender": "Female",
+      "pincode": "700100",
+      "city": "KOLKATA",
+      "state": "WEST BENGAL",
+      "country": "india",
+      "id": 4
+    }
+  ],
+  "coaches": [
+    {
+      "id": 1,
+      "name": "Rose",
+      "password": "rose12345",
+      "gender": "F",
+      "dateOfBirth": "1996-01-01",
+      "mobileNumber": 1234567890,
+      "speciality": "Confidence Issues"
+    },
+    {
+      "name": "mmddwgwg",
+      "password": "efewgwg",
+      "gender": "Male",
+      "dateOfBirth": "2022-09-22",
+      "mobileNumber": "1231231231",
+      "speciality": "wgewgwg",
+      "id": 3
+    },
+    {
+      "name": "Debuu",
+      "password": "1234",
+      "gender": "Male",
+      "dateOfBirth": "2022-09-14",
+      "mobileNumber": "1123",
+      "speciality": "w,jwef",
+      "id": 4
+    }
+  ],
+  "bookings": [
+    {
+      "appointmentDate": "2020-09-24",
+      "slot": "10 AM to 11 AM",
+      "userId": 1,
+      "coachId": 1,
+      "id": 1
+    }
+  ]
+}
