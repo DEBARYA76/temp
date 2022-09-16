@@ -1,0 +1,274 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* You can add global styles to this file, and also import other style files */
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;    
+}
+
+*{
+  /*To reset the default style sheet of the borwser*/
+  padding: 10;
+  margin:10;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header{
+  background: hsl(0, 0%, 9%);
+  padding: 0.2rem 1rem;
+  color:white;
+  display:flex;
+  font-size: 1.5rem;
+  width: 100%;
+  justify-content:space-between;
+  position: fixed;
+  height: 8%;
+  margin-bottom: 50px;
+}
+
+.footer{
+  background:hsl(0, 0%, 9%);
+  color:white;
+  text-align: center;
+  padding:0.5rem;
+  width:100%;
+  position:fixed;
+  bottom:0;
+}
+
+body{
+  font-family:'Montserrat';
+  overflow:hidden;
+  margin-bottom: 5rem;
+  background:lightgray;
+  height: 100%;
+}
+
+.utl1{
+  margin:1rem;
+}
+
+.heading{
+  text-align:center;
+  padding: 2rem 2rem;
+  padding-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+.form-heading{
+  color: white;
+  font-weight: 400;
+  font-size:3rem;
+  margin-top: 100px;
+}
+.card-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.coach, .user{
+  margin:20px;
+  margin-top: 8rem;
+  background-color: black;
+  border-radius: 15px;
+  width: 350px;
+  height:350px;
+  align-content:center;
+}
+.bookings-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-appt {
+  width: 500px;
+  height:auto;
+  padding: 20px;
+  align-content:center;
+} 
+.book-appt-container{
+  height:auto;
+  width:auto;
+  margin-top: 8rem;;
+  background-color:black;
+  border-radius:15px;
+  align-content:center;
+}
+
+.profile {
+  background-color: black;
+  border-radius: 15px;
+  width: 300px;
+  height:600px;
+  padding: 10px;
+  margin: 10px;
+  align-content:center;
+} 
+
+.booking {
+  background-color: black;
+  border-radius: 15px;
+  width: 300px;
+  height:300px;
+  padding: 10px;
+  margin: 10px;
+  align-content:center;
+} 
+
+.coach-img{
+  height:180px;
+  width:180px;
+  margin:2rem;
+}
+
+.user-img{
+  margin-top:2rem;
+  margin-left:-10rem;
+  margin-bottom:130px; ;
+  height: 20%;
+  width: 20%;
+}
+
+.register-form-card{
+  height:auto;
+  width:600px;
+  background-color:black;
+  border-radius:15px;
+  align-content:center;
+  margin:20px;
+  margin-top:8rem;
+}
+
+.form-img{
+  height:50px;
+  width:50px;
+  margin:2rem;
+}
+
+.label{
+  color:white;
+  font-size: medium;
+}
+
+.form-container{
+  padding:30px;
+
+}
+
+.input-wrap{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:2rem;
+  margin-bottom:2rem;
+}
+
+.info{
+  color: whitesmoke;
+  margin: -10px;
+}
+
+.appt-data{
+  color: whitesmoke;
+  text-align: center;
+}
+
+.slot{
+  color: whitesmoke;
+  padding: 1rem;
+  text-indent: 50px;
+}
+
+.btn {
+  width: 325px;
+  margin-top: 20px;
+  
+}
+
+
+.btn-b{
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.btn-a{
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: -50px;
+}
+
+.booking-pic{
+  height:100px;
+  width: 100px;
+  margin-top: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;
+  background-color:hsl(0, 0%, 9%);
+}
+
+li {
+  float: left;
+}
+
+li span {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+li span:hover {
+  background-color: #333;
+  cursor: pointer;
+}
